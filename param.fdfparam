@@ -1,0 +1,114 @@
+< commentaire >
+	color		:	liste des couleurs de z le plus élevéau au z plus bas, format hexadecimal : RRGGBB, deux gestions :
+					RRGGBB z
+	x, y, z		:	multiplicateur de distance.
+	rx,ry,rz	:	rotation initial. (en % de pi)
+	win size	:	nombre de ligne saut de ligne nombre de colonne
+	l_zoom		:	type de projection :
+					0 -> pour projection iso
+					autre -> (valeur de l'ordre de grandeur de (zmax - zmin) * (multiplicateur de distance sur z)) pour image coherente.
+	centrage 	:	type de centrage :
+					0 -> 0,0,0 de la map coincide avec le centre de la fenetre
+					1 -> le centre de la map projeté correspond au centre de la fenetre
+	transparence:	type d'affichage :
+					0 -> on ne voit pas a travers les parallélépipèdes
+					1 -> les parallélépipèdes sont transparent
+	rot_type	:	type d'angle de rotation :
+					0 -> angle de cardan
+					1 -> angle d'euler
+< color >
+		FF0000 15
+		E80017 14
+		D1002E 13
+		B90046 12
+		A2005D 11
+		8B0074 10
+		74008B 9
+		5D00A2 8
+		4600B9 7
+		2E00D1 6
+		1700E8 5
+		0000FF 4
+		0000CC 3
+		000099 2
+		000066 1
+		000033 0
+	<\ color >
+	< color >
+		FFFFFF 30
+		FFFFFF 10
+		FFFFFF 8
+		A9582D 6
+		3A7C12 4
+		7EA92D 1
+		D4AD35 0
+		2D7EA9 -2
+		2D40A9 -5
+	<\ color >
+<\ commentaire >
+
+< param >
+	< color >
+		FF0000 15
+		E80017 14
+		D1002E 13
+		B90046 12
+		A2005D 11
+		8B0074 10
+		74008B 9
+		5D00A2 8
+		4600B9 7
+		2E00D1 6
+		1700E8 5
+		0000FF 4
+		0000CC 3
+		000099 2
+		000066 1
+		000033 0
+	<\ color >
+
+	< win size >
+		13
+		13
+	<\ win size >
+
+	< x >
+		30
+	<\ x >
+
+	< y >
+		30
+	<\ y >
+
+	< z >
+		10
+	<\ z >
+
+	< rx >
+		0.0
+	<\ rx >
+
+	< ry >
+		0.0
+	<\ ry >
+
+	< rz >
+		0.0
+	<\ rz >
+
+	< l_zoom >
+		0
+	<\ l_zoom >
+
+	< centrage >
+		0
+	<\ centrage >
+
+	< transparence >
+		0
+	<\ transparence >
+
+	< rot_type >
+		0
+	<\ rot_type >
+<\ param >
